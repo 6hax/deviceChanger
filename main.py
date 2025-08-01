@@ -72,9 +72,9 @@ def select_house():
         inquirer.List('house',
                      message="Select your HypeSquad house",
                      choices=[
-                         ('Bravery (Valor)', 'bravery'),
-                         ('Brilliance (Wisdom)', 'brilliance'),
-                         ('Balance (Equilibrium)', 'balance')
+                         ('Bravery', 'bravery'),
+                         ('Brilliance', 'brilliance'),
+                         ('Balance', 'balance')
                      ],
                      carousel=True),
     ]
